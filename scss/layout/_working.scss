@@ -1,0 +1,115 @@
+.header-portfolio {
+    border-bottom: solid 1px;
+    color: var(--color-title);
+}
+
+.working__block .container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.working__list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 8px;
+}
+
+.working__button-nav {
+    color: var(--color-text);
+    background-color: var(--backround-title);
+    font-style: medium;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    padding: 6px 22px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color cubic-bezier(0.4, 0, 0.2, 1), box-shadow cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.working__button-nav:hover,
+.working__button-nav:focus {
+    color: var(--color-title-second);
+    background-color: var(--color-logo);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.working__card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.working__item {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 24px;
+    border: 1px solid var(--title-accent);
+    border-top: 0;
+    background-color: var(--color-title-second);
+}
+
+.working__link {
+    display: block;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+            1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+}
+
+
+.working__examples {
+    color: var(--color-text);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.working__titles {
+    margin-top: 4px;
+    color: var(--color-accent);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+
+.working__overlay-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.working__link:hover .working__overlay,
+.working__link:focus .working__overlay {
+    transform: translateY(0);
+}
+
+.working__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 150, 243, 0.9);
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.working__text {
+    padding: 63px 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    letter-spacing: 0.03em;
+}

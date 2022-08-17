@@ -1,0 +1,44 @@
+.header__ctr.container {
+  align-items: center;
+  display: flex;
+
+}
+
+.header__list {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.header__item {
+  position: relative;
+
+}
+
+.header__adress {
+  color: var(--color-accent);
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  transition: color 205ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--color-logo);
+  }
+}
+
+.header-item .link {
+  display: flex;
+  align-items: center;
+}
+
+.header__icon {
+  fill: currentColor;
+  margin-right: 10px;
+}

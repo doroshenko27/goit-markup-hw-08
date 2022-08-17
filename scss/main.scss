@@ -1,0 +1,25 @@
+//utils stiles
+@import './utils/variables';
+@import'./utils/visually-hidden';
+@import'./utils/placeholders';
+//base stiles
+@import'./base/base';
+@import'./base/reset';
+//component stiles
+@import'./components/_buttons';
+@import'./components/_container';
+@import'./components/_section';
+@import'./components/modal-window';
+@import'./components/modal-form';
+@import'./components/modal-check-box';
+//layout stiles
+@import'./layout/_logo';
+@import'./layout/_nav';
+@import'./layout/_header';
+@import'./layout/business';
+@import'./layout/features';
+@import'./layout/work';
+@import'./layout/command';
+@import'./layout/klient';
+@import'./layout/footer';
+@import'./layout/working';
