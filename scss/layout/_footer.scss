@@ -5,12 +5,20 @@ footer {
 }
 
 .footer__container {
-    display: flex;
-    align-items: baseline;
+    display: block;
+    text-align: center;
+
+    @media screen and(min-width:1200px) {
+        display: flex;
+        align-items: baseline;
+    }
 }
 
 .footer__address {
-    margin-right: 70px;
+
+    @media screen and(min-width:1200px) {
+        margin-right: 70px;
+    }
 }
 
 .footer__logo {
@@ -77,6 +85,12 @@ footer {
 .footer__list {
     display: flex;
     gap: 10px;
+    justify-content: center;
+
+    @media screen and(min-width:1200px) {
+        display: flex;
+        gap: 10px;
+    }
 }
 
 .footer__link {
@@ -114,7 +128,11 @@ footer {
 }
 
 .footer__mailing-list {
-    display: flex;
+    display: block;
+
+    @media screen and(min-width:1200px) {
+        display: flex;
+    }
 }
 
 .footer__input {

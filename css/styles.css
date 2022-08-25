@@ -839,10 +839,7 @@ textarea::placeholder {
 }
 /*----------------Стили для портфолио----------------*/
 /*----------------working container------------------*/
-/*.container {
-  padding-top: 94px;
-  padding-bottom: 80px;
-}
+/*
 .header-portfolio {
   border-bottom: solid 1px;
   color: var(--color-title);

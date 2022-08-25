@@ -2,6 +2,8 @@
     background-color: var(--color-title-second);
 }
 
+
+
 .klient__fix {
     color: var(--color-text);
     font-weight: 700;
@@ -14,12 +16,22 @@
 
 .klient__list {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
+
+
+    @media screen and(min-width:1200px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
 }
 
 .klient__link {
+
     display: flex;
     color: var(--color-icon-fix);
     width: 170px;
@@ -35,6 +47,7 @@
         color: var(--color-logo);
         border: 1px solid var(--color-logo);
     }
+
 }
 
 .klient__icon {
